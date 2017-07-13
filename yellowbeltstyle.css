@@ -1,0 +1,245 @@
+/*Style sheet for James Consulting*/
+
+*{
+	padding: 0px;
+	margin:0px;
+}
+
+#wrapper{
+	background-color: #062134;
+	width: 1030px;
+}
+
+#header{
+	padding: 20px;
+}
+
+h1
+{
+	color:#ffffff;
+	width: 400px;
+	display: inline-block;
+	font-family: Verdana, serif;
+	font-weight: normal;
+}
+
+#head
+{
+	color: #1a96e4;
+}
+#container
+{
+	background-color: white;
+/*	width: 950px;
+*/	margin: auto 10px;
+}
+
+#nav ul
+{
+	display: flex;	
+	color: white;
+	justify-content: space-between;
+}
+
+#nav
+{
+	display: inline-block;
+	margin: 0px;
+	padding: 0 15px;
+	width: 500px;
+	font-family: Verdana, serif;
+	font-weight: normal;
+}
+
+#nav a{
+	text-decoration:none;
+	color: #ffffff;
+}
+#nav ul li
+{
+	display: flex;
+	margin: 10px;
+	padding-left: 10px;
+	padding-right: 5px;
+	font-size: 17px;
+}
+
+#nav li a:hover 
+{
+        background-color: none;
+        color:#1468a8;
+    }
+
+#nav li a:active {
+        background-color: none;
+        color: #1468a8;
+ }
+
+#mainpic{
+	width: 970px;
+	padding: 20px;
+}
+
+.box{
+	display: inline-block;
+	width: 267px;
+	height: 200px;
+	vertical-align: top;
+	padding: 20px;
+	margin-left: 20px;
+	background-color: #1468a8;
+	color: #ffffff;
+	line-height: 200%;
+}
+
+.icon{
+	width: 30px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.boxtitle{
+	display: inline-block;
+	vertical-align: top;
+	font-family: Verdana, serif;
+	font-weight: normal;
+}
+
+p{
+	line-height: 130%;
+	padding-top: 5px;
+}
+
+.infobutton
+{
+	padding: 10px 40px;
+	border-radius: 5px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	color: #ffffff;
+	font-size: 12px;
+	background: linear-gradient(#5eb7ef, #198fd9);
+	border: none;
+}
+
+#servicebutton{
+	margin-top: 30px;
+}
+
+#clientbutton{
+	margin-top:10px;
+}
+
+#projectbutton{
+	margin-top:10px;
+}
+
+#worldsection{
+	padding: 20px;
+	display: inline-block;
+	width: 600px;
+	height: 300px;
+	vertical-align: top;
+	font-family: Verdana, serif;
+}
+
+#buildingpic{
+	padding-top: 20px;
+	display: inline-block;
+	width: 300px;
+}
+
+#worldsection h2{
+	padding-top: 10px;
+	font-weight: normal;
+}
+
+.para{
+	display: inline-block;
+	width: 250px;
+	vertical-align: top;
+	padding: 20px;
+}
+
+#worldsection p{
+	display: block;
+	width: 300px;
+	position: relative;
+	left: 320px;
+	top: -170px;
+	font-size: 14px;
+}
+
+#testimonial{
+	display: inline-block;
+	width: 300px;
+	vertical-align: top;
+	margin-top: 30px;
+	margin-left: 20px;
+	font: verdana;
+}
+
+#testimonial h2{
+	padding-bottom: 20px;
+	font-family: Verdana, serif;
+	font-weight: normal;
+}
+
+.quote{
+	background-color:#daedff;
+	width: 300px;
+	height: 150px; 
+	padding: 10px;
+}
+
+#text{
+	text-align: center;
+	font-style: italic;
+	font-size: 16px;
+	padding-top: 40px;
+	font-family: Verdana, serif;
+	font-weight: normal;
+}
+
+#sign{
+	padding-top: 70px;
+}
+#footer{
+	background-color:#daedff;
+	text-align: center; 
+	color: white;
+	margin-top: 10px;
+	padding: 30px;
+}
+
+#footer ul li{
+
+	display: flex;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+.footer-top {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 250px;
+}
+
+#footer a{
+	color: #1468a8;
+	text-decoration: none;
+}
+
+a{
+	text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
